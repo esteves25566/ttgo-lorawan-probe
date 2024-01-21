@@ -22,6 +22,8 @@ DEVICE_CONFIG = {
         "APPS_KEY": "yourkeyhere",
         "NWS_KEY": "yourkeyhere",
         "GPS_UART_PINS": ('G15', 'G12'),
+        # In TTGO V1.1:
+        # "GPS_UART_PINS": ('G12', 'G34'),
         # Test Config
         # Tested datarates 0=SF12, 1=SF11, 2=SF10, 3=SF9, 4=SF8, 5=SF7
         # TEST_DATARATES=(0,1,2,3,4,5)
